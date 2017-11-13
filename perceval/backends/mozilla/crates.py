@@ -31,11 +31,11 @@ from grimoirelab.toolkit.datetime import (datetime_utcnow,
                                           str_to_datetime)
 from grimoirelab.toolkit.uris import urijoin
 
-from ...backend import (Backend,
-                        BackendCommand,
-                        BackendCommandArgumentParser,
-                        metadata)
-from ...utils import DEFAULT_DATETIME
+from perceval.backend import (Backend,
+                              BackendCommand,
+                              BackendCommandArgumentParser,
+                              metadata)
+from perceval.utils import DEFAULT_DATETIME
 
 CRATES_URL = "https://crates.io/"
 CRATES_API_URL = 'https://crates.io/api/v1/'

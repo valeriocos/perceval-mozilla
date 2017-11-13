@@ -29,11 +29,11 @@ import requests
 from grimoirelab.toolkit.datetime import str_to_datetime
 from grimoirelab.toolkit.uris import urijoin
 
-from ...backend import (Backend,
-                        BackendCommand,
-                        BackendCommandArgumentParser,
-                        metadata)
-from ...errors import CacheError, ParseError
+from perceval.backend import (Backend,
+                              BackendCommand,
+                              BackendCommandArgumentParser,
+                              metadata)
+from perceval.errors import CacheError, ParseError
 
 
 logger = logging.getLogger(__name__)
